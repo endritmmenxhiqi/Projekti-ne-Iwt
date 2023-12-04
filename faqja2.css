@@ -1,0 +1,10 @@
+body{
+    background-image: url(background5.jpg);
+}
+.text{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 180px;
+    font-size:25px;
+    color:whitesmoke;
+  }

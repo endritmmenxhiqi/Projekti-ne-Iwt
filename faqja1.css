@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.load {
+    animation: slide 2s;
+}
+
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+}
+
+.content {
+    color: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.principal {
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.principal h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+@keyframes slide {
+    0%, 25% {
+        background-image: url('background.jpg');
+        /* Display the first photo for 1 second (25% of the total time) */
+    }
+    26%, 50% {
+        background-image: url('backround3.jpg');
+        /* Display the second photo for 1 second (25% of the total time) */
+    }
+    51%, 100% {
+        background-image: url('back.jpg');
+        /* Display the first photo for 2 seconds (50% of the total time) */
+    }
+}
+
+.slider {
+    /* Animation duration reduced to 4 seconds for a faster transition */
+    animation: slide 4s infinite;
+}
+
+/* Try adding image-rendering property */
+.slider {
+    image-rendering: optimizeQuality; /* Or -webkit-optimize-contrast */
+}
+.navbar {
+    padding: 50px; /* Padding around the navbar */
+    display: flex;
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Center items vertically */
+    font-size: 30px;
+  }
+  
+  .nav-left {
+    order: 1; /* Adjust the order of the left section */
+  }
+  
+  .nav-right {
+    order: 2; /* Adjust the order of the right section */
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display items in a row */
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Spacing between items */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color:blueviolet; /* Link color */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of the viewport */
+  }
+  
+  .content {
+    flex: 1; /* Fill remaining space */
+    /* Your content styles */
+  }
+  .text{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size:25px;
+    color:white;
+  }
