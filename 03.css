@@ -1,3 +1,5 @@
+
+
 .card:hover {
   transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
 }

@@ -1,0 +1,90 @@
+/* The navbar container */
+.navbar {
+    padding: 20px 50px; /* Padding around the navbar */
+    display: flex;
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Center items vertically */
+    font-size: 18px;
+    background-color:gray; /* Background color of the navbar */
+    color: white; /* Text color */
+  }
+  
+  /* Styles for the left section of the navbar */
+  .nav-left {
+    order: 1; /* Adjust the order of the left section */
+  }
+  
+  /* Styles for the right section of the navbar */
+  .nav-right {
+    order: 2; /* Adjust the order of the right section */
+  }
+  
+  /* Styles for the navigation list */
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Reset margin */
+    display: flex; /* Display items in a row */
+    font-size: 100%;
+  }
+  
+  /* Styles for each item in the navigation list */
+  .nav-item {
+    margin-right: 20px; /* Spacing between items */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  /* Styles for the links in the navigation */
+  .nav-item a {
+    text-decoration: none;
+    color: white; /* Link color */
+  }
+  
+  /* Hover effect for links */
+  .nav-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: lightgray; /* Change color on hover */
+  }
+  
+  /* Style the image container */
+  .image-container {
+    margin-top: 0.7px;
+    width: 950px; /* Adjust this size according to your preference */
+    height: 800px; /* Adjust this size according to your preference */
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the images */
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  .harta {
+  margin-bottom: -10%;
+  margin-left: 70%; /* Adjust margin as needed to center horizontally */
+  }
+  
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    
+    
+  }
+  .footer-left{
+    margin:0%;
+  }
+  

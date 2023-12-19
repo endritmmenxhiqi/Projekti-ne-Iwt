@@ -36,15 +36,15 @@
     margin-bottom: 20px;
 }
 @keyframes slide {
-    0%, 25% {
+    0%, 35% {
         background-image: url('background.jpg');
         /* Display the first photo for 1 second (25% of the total time) */
     }
-    26%, 50% {
+    36%, 65% {
         background-image: url('backround3.jpg');
         /* Display the second photo for 1 second (25% of the total time) */
     }
-    51%, 100% {
+    66%, 100% {
         background-image: url('back.jpg');
         /* Display the first photo for 2 seconds (50% of the total time) */
     }
@@ -52,7 +52,7 @@
 
 .slider {
     /* Animation duration reduced to 4 seconds for a faster transition */
-    animation: slide 4s infinite;
+    animation: slide 6s infinite;
 }
 
 /* Try adding image-rendering property */

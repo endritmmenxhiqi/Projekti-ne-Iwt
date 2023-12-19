@@ -41,6 +41,11 @@
 #Pro-Pent-Estate{
   background-color: gray;
 }
+#EM-img{
+  margin-top: 5% 0% 30% 10%;
+  width:80%;
+  
+}
 
 
 
@@ -48,9 +53,10 @@
 
 .EM-teksti{
 justify-content: left;
-margin-top:15%;
-margin-left:55%; 
-font-size:large;
+margin-top:-35%;
+
+margin-left:65%; 
+font-family: Arial, Helvetica, sans-serif;
 }
 
 
