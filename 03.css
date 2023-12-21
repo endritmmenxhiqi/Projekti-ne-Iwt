@@ -1,5 +1,44 @@
+.navbar {
+  padding: 70px; /* Padding around the navbar */
+  display: flex;
+  justify-content: space-between; /* Distribute items along the main axis */
+  align-items:center; /* Center items vertically */
+  font-size: 30px;
 
+}
 
+.nav-left {
+  order: 1; /* Adjust the order of the left section */
+}
+
+.nav-right {
+  order: 2; /* Adjust the order of the right section */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 75%;
+  display: flex; /* Display items in a row */
+  font-size: 150%;
+ 
+}
+
+.nav-item {
+  margin-right: 20px; /* Spacing between items */
+}
+
+.nav-item:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color:white; /* Link color */
+}
+.EM-header{
+  background-color:gray;
+}
 .card:hover {
   transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
 }
@@ -8,9 +47,13 @@
   color: #fff;
   padding: 20px;
   margin: 2% -170%;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .footer-left{
   margin:0%;
-} 
-  
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
