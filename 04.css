@@ -1,4 +1,4 @@
-.navbar {
+.EM-navbar {
   padding: 50px; /* Padding around the navbar */
   display: flex;
   justify-content: space-between; /* Distribute items along the main axis */
@@ -7,15 +7,15 @@
 
 }
 
-.nav-left {
+.EM-nav-left {
   order: 1; /* Adjust the order of the left section */
 }
 
-.nav-right {
+.EM-nav-right {
   order: 2; /* Adjust the order of the right section */
 }
 
-.nav-list {
+.EM-nav-list {
   list-style: none;
   padding: 0;
   margin-left: 65%;
@@ -23,29 +23,20 @@
   font-size: 150%;
  
 }
-
-
-
-
-
-
-
-
-
-.card:hover {
+.cEM-ard:hover {
   transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
 }
-.card-height {
+.EM-card-height {
   height: 100%; /* Adjust this value to your desired card height */
 }
 
-.footer {
+.EM-footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
   margin: 2% -170%;
   
 }
-.footer-left{
+.EM-footer-left{
   margin:0%;
 }

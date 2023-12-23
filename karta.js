@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const images = document.querySelectorAll('.image-container img');
+  const images = document.querySelectorAll('.EM-image-container img');
   let currentIndex = 0;
 
   function showImage(index) {
