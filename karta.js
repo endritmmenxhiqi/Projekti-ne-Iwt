@@ -26,4 +26,30 @@ document.addEventListener('DOMContentLoaded', function() {
       showImage(currentIndex);
     }
   });
+
+  // Change image on touch (swipe)
+  let initialX = null;
+
+  document.addEventListener('touchstart', function(event) {
+    initialX = event.touches[0].clientX;
+  });
+
+  document.addEventListener('touchend', function(event) {
+    if (initialX === null) {
+      return;
+    }
+
+    const finalX = event.changedTouches[0].clientX;
+    const deltaX = finalX - initialX;
+
+    if (deltaX > 0) {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+    } else {
+      currentIndex = (currentIndex + 1) % images.length;
+    }
+
+    showImage(currentIndex);
+    initialX = null;
+  });
 });
+

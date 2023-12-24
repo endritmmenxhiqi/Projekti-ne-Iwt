@@ -1,3 +1,4 @@
+
 /* The navbar container */
 .EM-navbar {
     padding: 20px 50px; /* Padding around the navbar */
@@ -74,7 +75,16 @@
   margin-top:-12%;
   margin-left: 45%; /* Adjust margin as needed to center horizontally */
   }
-  
+  .EM-description {
+    position: absolute;
+    top: 50%; /* Larg header-it */
+    left: 80%; /* Vendos në mes të ekranit në anën e majtë */
+    transform: translateX(-50%);
+    border: 7px solid orange;
+    width: 30%;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
   
   
   .EM-footer {
