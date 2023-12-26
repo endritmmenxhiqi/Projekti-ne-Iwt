@@ -1,11 +1,14 @@
 
 
 .EM-navbar {
-  padding: 80px; /* Padding around the navbar */
+  padding: 0%; /* Padding around the navbar */
   display: flex;
   justify-content: space-between; /* Distribute items along the main axis */
   align-items:center; /* Center items vertically */
-  font-size: 30px;
+  font-size: 15px;
+  background-color: #444;
+  margin: 0%;
+ 
 
 }
 
@@ -20,10 +23,11 @@
 .EM-nav-list {
   list-style: none;
   padding: 0;
-  margin-left: 75%;
+  margin-left: 10%;
   display: flex; /* Display items in a row */
-  font-size: 150%;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
+  
  
 }
 
@@ -40,10 +44,10 @@
   color:white; /* Link color */
 }
 #Pro-Pent-Estate{
-  background-color: gray;
+  background-color: white;
 }
 #EM-img{
-  margin-top: 5% 0% 30% 10%;
+  margin-top: 15% 0% 30% 10%;
   width:80%;
   
 }
