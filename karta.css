@@ -20,11 +20,12 @@
 
  
   .EM-harta {
-  margin-top:-12%;
-  margin-left: 45%; /* Adjust margin as needed to center horizontally */
+  margin-top:-14%;
+  margin-left: 65%; /* Adjust margin as needed to center horizontally */
+  position:absolute;
   }
   .EM-description {
-    position: relative;
+    position: absolute;
      margin-top: 5%; /* Larg header-it */
     left: 50%; /* Vendos në mes të ekranit në anën e majtë */
     transform: translateX(-50%);
@@ -38,8 +39,8 @@
   .EM-footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    margin-top: 5%;
+    padding: 40px;
+    margin-top: 25%;
     
     
   }
