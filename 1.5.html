@@ -6,96 +6,94 @@
   <title>Image Gallery</title>
   <link rel="stylesheet" href="karta.css">
   <script src="1.js" defer></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-  <nav class="EM-navbar">
-    <div class="EM-nav-left"></div>
-    <div class="EM-nav-right">
-      <ul class="EM-nav-list">
-        <li class="EM-nav-item"><a href="faqja1.html">Home</a></li>
-        <li class="EM-nav-item"><a href="about us.html">About</a></li>
-      </li>
-        <li class="EM-nav-item EM-dropdown">
-          <a href="#" class="EM-dropdown-label">Lokacioni ▼</a>
-          <ul class="EM-dropdown-content">
-            <li><a href="01.html">Prishtinë</a></li>
-            <li><a href="02.html">Mitrovicë </a></li>
-            <li><a href="03.html">Prizeren</a></li>
-            <li><a href="04.html">Gjakovë</a></li>
-            <li><a href="05.html">Pejë</a></li>
-            <li><a href="06.html">Ferizaj</a></li>
-            <li><a href="07.html">Gjilan</a></li>
-          </ul>
-         <li class="EM-nav-item"><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body id="Pro-Pent-Estate">
   <div class="EM-image-container">
-    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#imageCarousel" data-slide-to="1"></li>
-        <li data-target="#imageCarousel" data-slide-to="2"></li>
-        <li data-target="#imageCarousel" data-slide-to="3"></li>
-      </ol>
+    <header>
+      <nav class="EM-navbar">
+        <div class="EM-nav-left"></div>
+        <div class="EM-nav-right">
+          <ul class="EM-nav-list">
+            <li class="EM-nav-item"><a href="faqja1.html">Home</a></li>
+            <li class="EM-nav-item"><a href="about us.html">About</a></li>
+          </li>
+            <li class="EM-nav-item EM-dropdown">
+              <a href="#" class="EM-dropdown-label">Lokacioni ▼</a>
+              <ul class="EM-dropdown-content">
+                <li><a href="01.html">Prishtinë</a></li>
+                <li><a href="02.html">Mitrovicë </a></li>
+                <li><a href="03.html">Prizeren</a></li>
+                <li><a href="04.html">Gjakovë</a></li>
+                <li><a href="05.html">Pejë</a></li>
+                <li><a href="06.html">Ferizaj</a></li>
+                <li><a href="07.html">Gjilan</a></li>
+              </ul>
+             <li class="EM-nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="fotot e penthouse/foto1.5.1.jpg" class="d-block w-100" alt="Image 1">
+          <img src="fotot e penthouse/Foto1.5.1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="fotot e penthouse/foto1.5.2.jpg" class="d-block w-100" alt="Image 2">
+          <img src="fotot e penthouse/foto1.5.2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="fotot e penthouse/foto1.5.3.jpg" class="d-block w-100" alt="Image 3">
+          <img src="fotot e penthouse/foto1.5.2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="fotot e penthouse/foto1.5.4.jpg" class="d-block w-100" alt="Image 4">
+          <img src="fotot e penthouse/foto1.5.3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="fotot e penthouse/foto1.5.4.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <div class="EM-description">
+      <h1>Përshkrimi</h1>
+      <p>Ofrohet për shitje penthouse me sipërfaqe 130m² në Qendër, ndërtim nga Kompania UrbanLife.</p>
+      <p>Penthouse ka orientim lindje-perëndim dhe përfshin një qëndrim ditor të ndriçuar, kuzhinë të modernizuar, tre dhoma gjumi, dy banjo dhe një depo.</p>
+      <p>Ngrohja e zgjidhur është me sistem kalanteri dhe radiatore për të siguruar një ambient të rehatshëm.</p>
+      <p>Me një vendndodhje të privilegjuar në qendër të qytetit, kjo hapësirë ofron jo vetëm një banim të mrekullueshëm, por edhe qasje të lehtë në shërbimet dhe atraksionet e qytetit.</p>
+  </div>
+  <footer class="EM-footer">
+    <div class="EM-footer-left">
+      <h3>Real Estate Agency</h3>
+      <p>Your destination for luxury penthouses</p>
+      <p>123 Posh Street, Pentopolis</p>
+      <p> <a href=" mailto:info@penthouseagency.com">info@penthouseagency.com</a></p>
+      <p>Phone: +1 234 567 890</p>
+      <div class="EM-harta">
+      <div class="EM-harta">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11736.780415670306!2d21.162202597943622!3d42.657220750183505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee605110927%3A0x9365bfdf385eb95a!2sPristina!5e0!3m2!1sen!2s!4v1702801098770!5m2!1sen!2s"
+        width="450" height="240" style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+</footer>
   
 </body>
-<footer class="EM-footer">
-  <div class="EM-footer-left">
-    <h3>Real Estate Agency</h3>
-    <p>Your destination for luxury penthouses</p>
-    <p>123 Posh Street, Pentopolis</p>
-    <p> <a href=" mailto:info@penthouseagency.com">info@penthouseagency.com</a></p>
-    <p>Phone: +1 234 567 890</p>
-    <div class="EM-harta">
-    <div class="EM-harta">
-      <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11736.780415670306!2d21.162202597943622!3d42.657220750183505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee605110927%3A0x9365bfdf385eb95a!2sPristina!5e0!3m2!1sen!2s!4v1702801098770!5m2!1sen!2s"
-      width="450" height="240" style="border:0;" allowfullscreen="" loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-  <div class="EM-description">
-    <h1>Përshkrimi</h1>
-    <p>Ofrohet për shitje penthouse me sipërfaqe 130m² në Qendër, ndërtim nga Kompania UrbanLife.</p>
-    <p>Penthouse ka orientim lindje-perëndim dhe përfshin një qëndrim ditor të ndriçuar, kuzhinë të modernizuar, tre dhoma gjumi, dy banjo dhe një depo.</p>
-    <p>Ngrohja e zgjidhur është me sistem kalanteri dhe radiatore për të siguruar një ambient të rehatshëm.</p>
-    <p>Me një vendndodhje të privilegjuar në qendër të qytetit, kjo hapësirë ofron jo vetëm një banim të mrekullueshëm, por edhe qasje të lehtë në shërbimet dhe atraksionet e qytetit.</p>
-</div>
 
-
-
-</footer>
-
-</footer>
 
 </html>
