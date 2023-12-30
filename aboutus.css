@@ -1,6 +1,3 @@
-
-
-
 .EM-navbar {
   padding: 0%; /* Padding around the navbar */
   display: flex;
@@ -24,7 +21,7 @@
 .EM-nav-list {
   list-style: none;
   padding: 0;
-  margin-left: 10%;
+  margin-right: 5%;
   display: flex; /* Display items in a row */
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
