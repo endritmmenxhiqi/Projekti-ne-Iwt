@@ -18,3 +18,8 @@
     margin-right: 15px; /* Adjusting spacing between items */
   }
   
+  .EM-header {
+    background-color: #555; /* Darkening the header background color */
+    color: white; /* Changing text color */
+  }
+  
