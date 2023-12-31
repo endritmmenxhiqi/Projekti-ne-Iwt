@@ -25,13 +25,12 @@
     color: white; /* Changing text color */
   }
  
-
-  body {
-    background-image: url("fotot e penthouse/background-per-contact.jpg");
-    background-size: contain;
+  .background-image {
+    background-image: url("background-per-contact.jpg"); /* Adjusted path */
+    background-size: cover; /* Changed to cover for a different display */
     background-repeat: no-repeat;
-    height: 80%;
-    width: 50%;
+    height: 100vh; /* Adjusted height for better visibility */
+    width: 100%; /* Adjusted width to fill the container */
 }
 
 
