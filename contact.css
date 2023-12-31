@@ -23,8 +23,13 @@
     background-color: #555; /* Darkening the header background color */
     color: white; /* Changing text color */
 }
-body{
-background-image:url("fotot e penthouse/background-per-contact.jpg");
+body {
+    background-image: url("fotot e penthouse/background-per-contact.jpg");
+    /* Additional background properties if needed */
+    background-size: cover; /* Adjusting the background size */
+    background-repeat: no-repeat; /* Preventing background image repetition */
+    /* Other styles for the body */
+    /* ... */
 }
 
 
