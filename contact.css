@@ -31,8 +31,8 @@ body {
     background-image: url("/Projekti-ne-Iwt/fotot e penthouse/background-per-contact.jpg");
     background-size: contain; /* Ndryshojeni në 'cover' ose 'contain' për dimensione të ndryshme */
     background-repeat: no-repeat;
-    height: 3000px; /* Ndryshojeni në dimensionet që dëshironi */
-    width: 5000px;
+    height: 80%; /* Ndryshojeni në dimensionet që dëshironi */
+    width: 50%;
     /* Shtoni stilizimet e tjera të nevojshme për imazhin */
 }
 
