@@ -37,13 +37,13 @@
 }
 
 .EM-footer {
-    margin-bottom:0;
+    position: fixed;
+    bottom: 0; /* Vendos footer-in në drejtim të fundit */
+    width: 100%; /* Bën footer-in të ketë gjërësi të plotë */
     background-color: #333;
     color: #fff;
     padding: 20px;
-    /* Ndryshojeni margin-top në një vlerë pozitive */
-    margin-top: 70%; /* P.sh., ndryshojeni në vlerën e nevojshme */
-    /* Shtoni stilizimet e tjera që ju duhen për footer-in */
+    /* Stilizimet e tjera për footer-in */
 }
 
 /* Nëse keni një klasë të veçantë për pjesën e majtë të footer-it */
