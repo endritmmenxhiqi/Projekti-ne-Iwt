@@ -20,18 +20,24 @@
   }
   
   .EM-header {
+    margin-top:0;
     background-color: #555; /* Darkening the header background color */
     color: white; /* Changing text color */
   }
-  body {
+ 
+
+body {
+    /* Vendosni klasën për imazhin në body */
     background-image: url("/Projekti-ne-Iwt/fotot e penthouse/background-per-contact.jpg");
-    /* Stilizime shtesë për sfond */
-    background-size: cover;
+    background-size: contain; /* Ndryshojeni në 'cover' ose 'contain' për dimensione të ndryshme */
     background-repeat: no-repeat;
-    /* Stile të tjera për body */
-    /* ... */
+    height: 300px; /* Ndryshojeni në dimensionet që dëshironi */
+    width: 500px;
+    /* Shtoni stilizimet e tjera të nevojshme për imazhin */
 }
+
 .EM-footer {
+    margin-bottom:0;
     background-color: #333;
     color: #fff;
     padding: 20px;
