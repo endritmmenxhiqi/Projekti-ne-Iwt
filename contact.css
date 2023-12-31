@@ -42,7 +42,7 @@
     color: #fff;
     padding: 20px;
     /* Ndryshojeni margin-top në një vlerë pozitive */
-    margin-top: 20px; /* P.sh., ndryshojeni në vlerën e nevojshme */
+    margin-top: 70%; /* P.sh., ndryshojeni në vlerën e nevojshme */
     /* Shtoni stilizimet e tjera që ju duhen për footer-in */
 }
 
