@@ -1,4 +1,4 @@
-/* CSS styles for your contact page */
+* CSS styles for your contact page */
 .EM-navbar {
     padding: 20px; /* Reducing the padding */
     font-size: 20px; /* Adjusting font size */
@@ -24,13 +24,14 @@
     color: white; /* Changing text color */
 }
 body {
-    background-image: url("fotot e penthouse/background-per-contact.jpg");
-    /* Additional background properties if needed */
-    background-size: cover; /* Adjusting the background size */
-    background-repeat: no-repeat; /* Preventing background image repetition */
-    /* Other styles for the body */
+    background-image: url("/Projekti-ne-Iwt/fotot e penthouse/background-per-contact.jpg");
+    /* Stilizime shtesë për sfond */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Stile të tjera për body */
     /* ... */
 }
+
 
 
 
