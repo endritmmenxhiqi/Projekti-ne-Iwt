@@ -46,6 +46,17 @@
 .EM-footer-left {
     margin: 0; /* Ndryshojeni në stilizimin e nevojshëm */
 }
+table {
+  border-collapse: collapse;
+  width: 50%; /* Stilojeni sipas nevojës */
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: left;
+}
 
   *{
     font-family: Arial, Helvetica, sans-serif;
