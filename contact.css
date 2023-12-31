@@ -26,15 +26,14 @@
   }
  
 
-.background-image {
-    /* Vendosni klasën për imazhin në body */
+  .background-image {
     background-image: url("/Projekti-ne-Iwt/fotot e penthouse/background-per-contact.jpg");
-    background-size: contain; /* Ndryshojeni në 'cover' ose 'contain' për dimensione të ndryshme */
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 80%; /* Ndryshojeni në dimensionet që dëshironi */
+    height: 80%;
     width: 50%;
-    /* Shtoni stilizimet e tjera të nevojshme për imazhin */
 }
+
 
 .EM-footer {
     position: fixed;
