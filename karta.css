@@ -21,7 +21,7 @@
  
   .EM-harta {
   margin-top:-12%;
-  margin-left: 68%; /* Adjust margin as needed to center horizontally */
+  margin-left: 60%; /* Adjust margin as needed to center horizontally */
   position: absolute;
   
  
@@ -41,7 +41,7 @@
   .EM-footer {
     background-color: #333;
     color: #fff;
-    padding: 40px;
+    padding: 45px;
     margin-top: 5%;
     
     
