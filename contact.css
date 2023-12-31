@@ -24,17 +24,15 @@
     background-color: #555; /* Darkening the header background color */
     color: white; /* Changing text color */
   }
- 
   .background-image {
-    background-image: url("fotot e penthouse/background-per-contact.jpg"); /* Adjusted path */
-    background-size: cover; /* Changed to cover for a different display */
+    background-image: url('fotot%20e%20penthouse/background-per-contact.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; /* Adjusted height for better visibility */
-    width: 100%; /* Adjusted width to fill the container */
+    height: 100vh;
+    width: 100%;
 }
 
-
-.EM-footer {
+ .EM-footer {
     position: fixed;
     bottom: 0; /* Vendos footer-in në drejtim të fundit */
     width: 100%; /* Bën footer-in të ketë gjërësi të plotë */
