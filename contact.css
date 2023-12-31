@@ -30,19 +30,20 @@
     /* Stile të tjera për body */
     /* ... */
 }
-  
- 
-  .EM-footer {
+.EM-footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    margin-top: -80%;
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
-  .EM-footer-left{
-    margin:0%;
-  }
+    /* Ndryshojeni margin-top në një vlerë pozitive */
+    margin-top: 20px; /* P.sh., ndryshojeni në vlerën e nevojshme */
+    /* Shtoni stilizimet e tjera që ju duhen për footer-in */
+}
+
+/* Nëse keni një klasë të veçantë për pjesën e majtë të footer-it */
+.EM-footer-left {
+    margin: 0; /* Ndryshojeni në stilizimin e nevojshëm */
+}
+
   *{
     font-family: Arial, Helvetica, sans-serif;
   }
