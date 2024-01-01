@@ -20,7 +20,7 @@
 
  
   .EM-harta {
-  margin-top: 10%;
+  margin-top: -20%;
   margin-left: 60%; /* Adjust margin as needed to center horizontally */
   position: absolute;
   
@@ -54,6 +54,4 @@
     font-family: Arial, Helvetica, sans-serif;
     
   }
-  .col-12 {
-    margin-right: 0; /* Fshij marginën e anës së djathtë */
-  }
+ 
