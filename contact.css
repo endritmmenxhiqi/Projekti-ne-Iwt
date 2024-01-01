@@ -24,13 +24,7 @@
     background-color: #555; /* Darkening the header background color */
     color: white; /* Changing text color */
   }
-  body {
-    background-image: url('fotot e penthouse/background-per-contact.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80%;
-    width: 80%;
-}
+
 
  .EM-footer {
     position: fixed;
