@@ -19,13 +19,11 @@
 }
 
  
-  .EM-harta {
+.EM-harta {
   margin-top: -20%;
-  margin-left: 60%; /* Adjust margin as needed to center horizontally */
+  margin-left: 50%;
   position: absolute;
-  
- 
-  }
+}
   .EM-description {
     position: relative;
      margin-top:-15%; /* Larg header-it */
