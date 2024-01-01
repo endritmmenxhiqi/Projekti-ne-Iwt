@@ -28,7 +28,7 @@
   }
   .EM-description {
     position: relative;
-     margin-top: 5%; /* Larg header-it */
+     margin-top:-15%; /* Larg header-it */
     left: 50%; /* Vendos në mes të ekranit në anën e majtë */
     transform: translateX(-50%);
     border: 7px solid orange;
