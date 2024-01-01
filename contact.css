@@ -1,3 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('C:\Users\Admin\Documents\GitHub\Projekti-ne-Iwt\fotot e penthouse\background-per-contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
 .EM-navbar {
     padding: 20px; /* Reducing the padding */
     font-size: 20px; /* Adjusting font size */
