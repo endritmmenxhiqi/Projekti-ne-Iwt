@@ -55,9 +55,9 @@ body {
     margin: 0; /* Ndryshojeni në stilizimin e nevojshëm */
 }
 
-table {
+.tabel-containeri {
  margin-right:20%;
- 
+
 }
 
 
