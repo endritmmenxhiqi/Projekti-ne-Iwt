@@ -25,7 +25,7 @@
   position: absolute;
 }
 .EM-description {
-  color: white;
+  color: black;
   position: relative;
   margin-top: -20%; /* Larg header-it */
   left: 50%; /* Vendos në mes të ekranit në anën e majtë */
