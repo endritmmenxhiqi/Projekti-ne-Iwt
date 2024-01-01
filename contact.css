@@ -24,7 +24,7 @@
     background-color: #555; /* Darkening the header background color */
     color: white; /* Changing text color */
   }
-  .background-image {
+  body {
     background-image: url('fotot%20e%20penthouse/background-per-contact.jpg');
     background-size: cover;
     background-repeat: no-repeat;
