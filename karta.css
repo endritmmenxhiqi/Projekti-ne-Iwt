@@ -20,11 +20,12 @@
 
  
 .EM-harta {
-  margin-top: -15%;
+  margin-top: -10%;
   margin-left: 60%;
   position: absolute;
 }
   .EM-description {
+    color:white;
     position: relative;
      margin-top:-15%; /* Larg header-it */
     left: 50%; /* Vendos në mes të ekranit në anën e majtë */
@@ -33,7 +34,9 @@
     width: 70%;
     height: 30%;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-size: 25px;
+   
+   
   } 
   
   
