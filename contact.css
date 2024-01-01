@@ -41,11 +41,12 @@ body {
 
  .EM-footer {
     position: fixed;
-    bottom: -15%; /* Vendos footer-in në drejtim të fundit */
+    bottom: -1%; /* Vendos footer-in në drejtim të fundit */
     width: 100%; /* Bën footer-in të ketë gjërësi të plotë */
     background-color: #333;
     color: #fff;
     padding: 20px;
+    margin-left: -8px;
     /* Stilizimet e tjera për footer-in */
 }
 
@@ -53,6 +54,26 @@ body {
 .EM-footer-left {
     margin: 0; /* Ndryshojeni në stilizimin e nevojshëm */
 }
+
+.table-container {
+  overflow-x: auto;
+  width: 50%; /* Përshtateni sipas nevojës */
+  float: right;
+  margin-top: 20px;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid orange;
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
 
   *{
     font-family: Arial, Helvetica, sans-serif;
