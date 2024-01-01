@@ -54,3 +54,6 @@
     font-family: Arial, Helvetica, sans-serif;
     
   }
+  .col-12 {
+    margin-right: 0; /* Fshij marginën e anës së djathtë */
+  }
