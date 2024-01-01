@@ -55,7 +55,7 @@ body {
     margin: 0; /* Ndryshojeni në stilizimin e nevojshëm */
 }
 
-.table-container {
+.table {
   overflow-x: auto;
   width: 50%; /* Përshtateni sipas nevojës */
   margin-top: 20px;
