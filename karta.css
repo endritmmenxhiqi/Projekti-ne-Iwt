@@ -20,14 +20,14 @@
 
  
 .EM-harta {
-  margin-top: -10%;
+  margin-top: -15%;
   margin-left: 60%;
   position: absolute;
 }
   .EM-description {
     color:white;
     position: relative;
-     margin-top:-15%; /* Larg header-it */
+     margin-top:-20%; /* Larg header-it */
     left: 50%; /* Vendos në mes të ekranit në anën e majtë */
     transform: translateX(-50%);
     border: 7px solid orange;
