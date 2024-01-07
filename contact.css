@@ -41,7 +41,7 @@ body {
 
  .EM-footer {
     position: fixed;
-    bottom: -28%; /* Vendos footer-in në drejtim të fundit */
+    bottom: -20%; /* Vendos footer-in në drejtim të fundit */
     width: 100%; /* Bën footer-in të ketë gjërësi të plotë */
     background-color: #333;
     color: #fff;
