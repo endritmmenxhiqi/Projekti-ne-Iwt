@@ -41,7 +41,7 @@ body {
 
  .EM-footer {
     position: fixed;
-    bottom: -1%; /* Vendos footer-in në drejtim të fundit */
+    bottom: -28%; /* Vendos footer-in në drejtim të fundit */
     width: 100%; /* Bën footer-in të ketë gjërësi të plotë */
     background-color: #333;
     color: #fff;
@@ -76,7 +76,7 @@ body {
       display: none;
 }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 600px) {
   .tabel-containeri-mobile {
       display: none;
 }
