@@ -17,6 +17,17 @@
     animation: slide 40s infinite;
 }
 
+@media only screen and (max-width: 600px) {
+  .slider {
+    background-size: contain;
+    background-position: top;
+}
+.text {
+  margin-top:50px !important  ;
+  font-size: 2vh !important;
+}
+}
+
 .content {
     color: gray;
     width: 100%;
@@ -99,8 +110,8 @@
   }
   .text{
     text-align: left;
-    margin-left: 200px;
+    text-align: center;
     margin-top: 150px;
-    font-size:25px;
+    font-size:3vh;
     color:white;
   }
