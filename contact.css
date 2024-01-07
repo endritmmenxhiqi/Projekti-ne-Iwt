@@ -76,7 +76,7 @@ body {
       display: none;
 }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 320px) {
   .tabel-containeri-mobile {
       display: none;
 }
