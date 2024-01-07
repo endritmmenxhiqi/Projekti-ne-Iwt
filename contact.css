@@ -60,7 +60,27 @@ body {
  
 
 }
+.tabel-containeri-mobile {
+  text-align: center;
+  
+ 
+ }
+.tabel-containeri-mobile td{
+  padding-bottom:10px !important;
+  
+ 
+ }
 
+@media only screen and (max-width: 600px) {
+  .tabel-containeri {
+      display: none;
+}
+}
+@media only screen and (min-width: 600px) {
+  .tabel-containeri-mobile {
+      display: none;
+}
+}
 
 
 
